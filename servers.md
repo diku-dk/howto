@@ -37,3 +37,8 @@ Oancea and Troels Henriksen control access.  Hostnames:
 You need to be [connected to the VPN](vpn.md) (or physically connected
 to the *wired network* at DIKU) to connect to these machines (as
 indicated by the hostnames above).
+
+### Granting access
+
+On [identity.ku.dk](https://identity.ku.dk) add users to the group
+`srv-futharkhpa-users`.
