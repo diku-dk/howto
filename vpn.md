@@ -48,5 +48,5 @@ and pick *Layer 2 tunneling protoco (L2TP)*.  Enter the following:
     are checked: *MSCHAP*, *MSCHAPv2*.
 
 That should add the connection.  To *enable* it, do whatever you
-normally do.  In particular, civilised looks like `nmtui` will work
+normally do.  In particular, civilised tools like `nmtui` will work
 fine (they cannot *add* VPNs but they can enable them just fine).
