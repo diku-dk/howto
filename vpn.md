@@ -53,11 +53,12 @@ fine (they cannot *add* VPNs but they can enable them just fine).
 
 ### NixOS-specific (?)
 
-You may need to create `/etc/ipsec.secrets` yourself (it'll be
-populated by something else when you enable the VPN, but apparently
-the file must exist in advance, and it's not clear who is responsible
-for it):
+You may need to create a `/etc/ipsec.secrets` file and a `/etc/ipsec.secrets.d`
+directory yourself (it'll be populated by something else when you enable the
+VPN, but apparently the file must exist in advance, and it's not clear who is
+responsible for it):
 
 ```
 sudo touch /etc/ipsec.secrets
+sudo mkdir /etc/ipsec.secrets.d
 ```
