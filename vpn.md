@@ -36,7 +36,8 @@ and pick *Layer 2 tunneling protoco (L2TP)*.  Enter the following:
 
   * Make sure *Enable IPsec tunnel to L2TP host* is checked
 
-  * **Pre-shared key:** Put `Bohr2013`.
+  * **Pre-shared key:** find it in the official documentation
+    (e.g. the macOS guide).
 
   * Under *Advanced*, click the *Legacy Proposals* to enable the magic
     potpourri of *~algorithms~* that will satisfy the KU server.
