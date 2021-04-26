@@ -37,7 +37,7 @@ and pick *Layer 2 tunneling protocol (L2TP)*.  Enter the following:
   * Make sure *Enable IPsec tunnel to L2TP host* is checked
 
   * **Pre-shared key:** find it in the official documentation
-    (e.g. the macOS guide).
+    (e.g. [the macOS guide](https://kunet.ku.dk/medarbejderguide/ITvejl/VPN%20-%20fjernadgang%20p%C3%A5%20SCIENCE%20PC%20Mac.pdf)).
 
   * Under *Advanced*, click the *Legacy Proposals* to enable the magic
     potpourri of *~algorithms~* that will satisfy the KU server.
