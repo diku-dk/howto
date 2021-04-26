@@ -22,4 +22,4 @@ it, here's links to frequently useful bits:
   * [Course exams](https://kunet.ku.dk/faculty-and-department/diku/teaching/exam/Pages/default.aspx)
 
 * [Academic Calender for SCIENCE](https://kunet.ku.dk/faculty-and-department/science/study-administration/academic-calendar/Pages/default.aspx) 
-  with nice pritable overviews. 
+  with nice printable overviews. 
