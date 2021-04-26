@@ -26,7 +26,7 @@ user setup you might not need `sudo`.
 Once there, press *Add connection* (the button looks like a `+` to me)
 and pick *Layer 2 tunneling protoco (L2TP)*.  Enter the following:
 
-* **Gateway:** `vpn-diku-science.ku.dk`
+* **Gateway:** `vpn-diku.science.ku.dk`
 
 * **Username:** your KU license plate (e.g. I put `mzd885`).
 
