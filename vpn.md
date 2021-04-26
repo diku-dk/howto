@@ -24,7 +24,7 @@ access the connection editor in some other way, and depending on your
 user setup you might not need `sudo`.
 
 Once there, press *Add connection* (the button looks like a `+` to me)
-and pick *Layer 2 tunneling protoco (L2TP)*.  Enter the following:
+and pick *Layer 2 tunneling protocol (L2TP)*.  Enter the following:
 
 * **Gateway:** `vpn-diku.science.ku.dk`
 
@@ -50,3 +50,14 @@ and pick *Layer 2 tunneling protoco (L2TP)*.  Enter the following:
 That should add the connection.  To *enable* it, do whatever you
 normally do.  In particular, civilised tools like `nmtui` will work
 fine (they cannot *add* VPNs but they can enable them just fine).
+
+### NixOS-specific (?)
+
+You may need to create `/etc/ipsec.secrets` yourself (it'll be
+populated by something else when you enable the VPN, but apparently
+the file must exist in advance, and it's not clear who is responsible
+for it):
+
+```
+sudo touch /etc/ipsec.secrets
+```
