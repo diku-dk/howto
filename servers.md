@@ -89,3 +89,7 @@ To get access to `/projects/futhark1`, you need to request access to the SEC-HPC
 
 On [identity.ku.dk](https://identity.ku.dk) add users to the group
 `srv-futharkhpa-users`.
+
+### Fiddling about with DKMS
+
+[See this issue.](https://github.com/RadeonOpenCompute/ROCm/issues/1318)
