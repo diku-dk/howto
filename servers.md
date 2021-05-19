@@ -83,7 +83,30 @@ indicated by the hostnames above).
 
 The home directories are subject to a 10GiB quota. Instead, you should use subdirectories in `/projects/futhark1/[YOUR-USERNAME]` for everything.
 
-To get access to `/projects/futhark1`, you need to request access to the SEC-HPC-PRJ-futhark1 group on [identity.ku.dk](https://identity.ku.dk).
+To get access to `/projects/futhark1`, you need to request access to
+the SEC-HPC-PRJ-futhark1 group on
+[identity.ku.dk](https://identity.ku.dk).
+
+### Working around the low disk quotas
+
+The (networked) home directories have a 10GiB space limit.  Instead,
+store important data in the (also networked) directories in
+`/projects` (assuming you have access to some of them).  The
+differerence between the `apps`, `data`, and `scratch` folders is
+immaterial; pick whatever you think sound best and make a folder for
+yourself.
+
+Many build tools like to put build artifacts in hidden directories in
+your home directory.  These will quickly run afoul of the quota.  The
+solution is add symlinks pointing to places in `/projects`, e.g.:
+
+```
+mkdir /projects/futhark1/data/$USER/dotcabal && ln -sf /projects/futhark1/data/$USER/dotcabal $HOME/.cabal
+mkdir /projects/futhark1/data/$USER/dotlocal && ln -sf /projects/futhark1/data/$USER/dotlocal $HOME/.local
+mkdir /projects/futhark1/data/$USER/dotstack && ln -sf /projects/futhark1/data/$USER/dotstack $HOME/.stack
+```
+
+Make sure the directories do not already exist.
 
 ### Granting access
 
