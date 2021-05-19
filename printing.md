@@ -2,10 +2,16 @@
 
 The easiest way is to use [webprint](https://webprint.science.ku.dk/).
 
-Otherwise read [the official
-guide](https://kunet.ku.dk/medarbejderguide/lokalinfo/undersider/Sider/SCIENCE/IT/Staff-print-p%C3%A5-SCIENCE.aspx)
-(and once you've done so, consider distilling the essentials and
-improving this page!)
+ - After logging in, choose "Web Print" on the left.
+ - Choose "Submit a Job"
+ - Choose how you want to print (color/gresycale, duplex/simplex). Don't worry
+   about the weird long name at the
+   front. `prtskyq02pw\WebPrint_q02_A4_Greyscale_Duplex (virtual)` is usually
+   good enough.
+ - Choose how many copies you want to print
+ - Upload the file you want to print
+ - Physically go to the mobility printer and scan your KU ID-card.
+ - Select "Print all" on the printer
 
 ## Mobility print setup
 http://mobilityprint.ku.dk:9163/client-setup/
