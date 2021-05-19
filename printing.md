@@ -1,6 +1,6 @@
 # Printing at DIKU
 
-The easiest way is to use [webprint](https://webprint.science.ku.dk/).
+The easiest way is to use [webprint](https://webprint.ku.dk/).
 
  - After logging in, choose "Web Print" on the left.
  - Choose "Submit a Job"
