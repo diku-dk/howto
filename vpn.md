@@ -66,18 +66,16 @@ sudo mkdir /etc/ipsec.secrets.d
 
 ### Arch Linux-specific (?)
 
-* You may also need to install `networkmanager-l2tp` and `strongswan` packages.
-
-* If *Legacy Proposals* is not available, you would have to manually provide the
+You may also need to install `networkmanager-l2tp` and `strongswan` packages.
+Furthermore, if *Legacy Proposals* is not available, you would have to manually provide the
 list of legacy algorithms by setting:
 
-  * **Phase 1 Algorithms** to:
+* **Phase 1 Algorithms** to:
 
 ```
 aes256-sha2_256-modp2048,aes256-sha2_256-modp1536,aes256-sha2_256-modp1024,aes256-sha1-modp2048,aes256-sha1-modp1536,aes256-sha1-modp1024,aes256-sha1-ecp384,aes128-sha1-modp1024,aes128-sha1-ecp256,3des-sha1-modp2048,3des-sha1-modp1024!
 ```
-
-  * **Phase 2 Algorithms** to:
+* **Phase 2 Algorithms** to:
 
 ```
 aes256-sha1,aes128-sha1,3des-sha1!
