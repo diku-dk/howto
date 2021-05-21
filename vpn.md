@@ -49,7 +49,8 @@ and pick *Layer 2 tunneling protocol (L2TP)*.  Enter the following:
 
 That should add the connection.  To *enable* it, do whatever you
 normally do.  In particular, civilised tools like `nmtui` will work
-fine (they cannot *add* VPNs but they can enable them just fine).
+fine (they cannot *add* VPNs but they can enable them just fine). Sometimes,
+a reboot would be necessary after the setup is complete.
 
 ### NixOS-specific (?)
 
@@ -61,4 +62,23 @@ responsible for it):
 ```
 sudo touch /etc/ipsec.secrets
 sudo mkdir /etc/ipsec.secrets.d
+```
+
+### Arch Linux-specific (?)
+
+* You may also need to install `networkmanager-l2tp` and `strongswan` packages.
+
+* If *Legacy Proposals* is not available, you would have to manually provide the
+list of legacy algorithms by setting:
+
+  * **Phase 1 Algorithms** to:
+
+```
+aes256-sha2_256-modp2048,aes256-sha2_256-modp1536,aes256-sha2_256-modp1024,aes256-sha1-modp2048,aes256-sha1-modp1536,aes256-sha1-modp1024,aes256-sha1-ecp384,aes128-sha1-modp1024,aes128-sha1-ecp256,3des-sha1-modp2048,3des-sha1-modp1024!
+```
+
+  * **Phase 2 Algorithms** to:
+
+```
+aes256-sha1,aes128-sha1,3des-sha1!
 ```
