@@ -108,6 +108,18 @@ mkdir /projects/futhark1/data/$USER/dotstack && ln -sf /projects/futhark1/data/$
 
 Make sure the directories do not already exist.
 
+### Environment variables
+
+To use the GPUs, set the following environment variables:
+
+```
+export CPATH=/opt/rocm/opencl/include:/usr/local/cuda/include:$CPATH
+export LIBRARY_PATH=/opt/rocm/opencl/lib:/usr/local/cuda/lib64:$LIBRARY_PATH
+export LD_LIBRARY_PATH=/opt/rocm/opencl/lib:/usr/local/cuda/lib64/$LD_LIBRARY_PATH
+```
+
+Consider adding this to your shell startup file.
+
 ### Granting access
 
 On [identity.ku.dk](https://identity.ku.dk) add users to the group
