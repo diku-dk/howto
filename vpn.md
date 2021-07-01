@@ -11,8 +11,7 @@ However, you will notice that there is no documentation for Linux.
 
 ## Accessing the *new* KU VPN on Linux and macOs
 
-The new VPN uses the Cisco AnyConnect protocol, which is not supported
-by NetworkManager.  Install
+The new VPN uses the Cisco AnyConnect protocol. In order to access it, install
 [OpenConnect](http://www.infradead.org/openconnect/) and run:
 
 ```
@@ -27,6 +26,23 @@ set that up).
 You can write a script such that you don't have to enter your username
 and password every time (do so and put it here!), but you will always
 need to do the 2FA.
+
+### Accessing the *new* KU VPN using NetworkManager
+
+Add a VPN connection in the connection editor:
+
+```
+$ sudo nm-connection-editor
+```
+
+Then, Press *Add connection*, pick *Cisco AnyConnect or openconnect* and enter the following:
+
+* **Gateway:** `vpn.ku.dk`
+
+It would then ask for your username, password (both of which can be saved) and 
+2FA token. If *Cisco AnyConnect or openconnect* is not in the list of available 
+connection types, you would probably need to install some package(s), depending on your
+setup (called networkmanager-openconnect for Arch Linux).
 
 ## Accessing the *old* DIKU VPN on Linux
 
