@@ -2,14 +2,14 @@
 
 There are apparently two KU VPNs: a "new" one that is "more secure"
 (it uses 2FA), and an older one.  This document describes how to
-access the old ones.
+access both.
 
 Take a look at [the official
 documentation](https://kunet.ku.dk/medarbejderguide/Sider/It/Fjernadgang-vpn.aspx)
 (generally, the material on KUNet is better than its reputation).
 However, you will notice that there is no documentation for Linux.
 
-## Accessing the *new* KU VPN on Linux and macOs
+## Accessing the *new* KU VPN on Linux and macOS
 
 The new VPN uses the Cisco AnyConnect protocol. In order to access it, install
 [OpenConnect](http://www.infradead.org/openconnect/) and run:
