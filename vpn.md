@@ -9,7 +9,26 @@ documentation](https://kunet.ku.dk/medarbejderguide/Sider/It/Fjernadgang-vpn.asp
 (generally, the material on KUNet is better than its reputation).
 However, you will notice that there is no documentation for Linux.
 
-## Accessing the KU/DIKU VPN on Linux
+## Accessing the *new* KU VPN on Linux and macOs
+
+The new VPN uses the Cisco AnyConnect protocol, which is not supported
+by NetworkManager.  Install
+[OpenConnect](http://www.infradead.org/openconnect/) and run:
+
+```
+$ sudo openconnect vpn.ku.dk
+```
+
+You will be asked to enter your username and password.  You will also
+need to enter a 2FA token from an authenticator app on your phone, or
+via a discrete device (see the official documentation above for how to
+set that up).
+
+You can write a script such that you don't have to enter your username
+and password every time (do so and put it here!), but you will always
+need to do the 2FA.
+
+## Accessing the *old* DIKU VPN on Linux
 
 The following assumes you use NetworkManager, which is the case on
 most Linux systems nowadays.  You will need to add a VPN connection,
