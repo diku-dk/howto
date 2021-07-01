@@ -29,7 +29,7 @@ need to do the 2FA.
 
 ### Accessing the *new* KU VPN using NetworkManager
 
-Add a VPN connection in the connection editor:
+Open the connection editor:
 
 ```
 $ sudo nm-connection-editor
