@@ -9,7 +9,7 @@ documentation](https://kunet.ku.dk/medarbejderguide/Sider/It/Fjernadgang-vpn.asp
 (generally, the material on KUNet is better than its reputation).
 However, you will notice that there is no documentation for Linux.
 
-### Accessing the *new* KU VPN using NetworkManager
+## Accessing the *new* KU VPN using NetworkManager
 
 Open the connection editor:
 
