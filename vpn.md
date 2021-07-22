@@ -100,7 +100,7 @@ an HTTP or SOCKS proxy as well.)
 With [`sshuttle`](https://github.com/sshuttle/sshuttle) connecting to
 the university network amounts to a single command with all
 authentication taken care of by SSH keys. Please see the
-[pltc-pi](https://github.com/diku-dk/pltc-pi/) repo for details.  If
+[pltc-pi](https://github.com/diku-dk/pltc-pi/) repo for details. If
 you do not have access to the repo, contact
 [@zfnmxt](https://github.com/zfnmxt).
 
