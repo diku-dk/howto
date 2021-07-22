@@ -91,6 +91,19 @@ normally do.  In particular, civilised tools like `nmtui` will work
 fine (they cannot *add* VPNs but they can enable them just fine). Sometimes,
 a reboot would be necessary after the setup is complete.
 
+## VPN-over-SSH via the PLTC Raspberry Pi
+
+An alternative (unofficial) VPN solution is to leverage an SSH
+connection to the PLTC Raspberry Pi. (Alternatively, you can use it as
+an HTTP or SOCKS proxy as well.)
+
+With [`sshuttle`](https://github.com/sshuttle/sshuttle) connecting to
+the university network amounts to a single command with all
+authentication taken care of by SSH keys. Please see the
+[pltc-pi](https://github.com/diku-dk/pltc-pi/) repo for details.  If
+you do not have access to the repo, contact
+[@zfnmxt](https://github.com/zfnmxt).
+
 ### NixOS-specific (?)
 
 You may need to create a `/etc/ipsec.secrets` file and a `/etc/ipsec.secrets.d`
