@@ -4,6 +4,10 @@ There are servers at DIKU that are accessed through various esoteric
 mechanisms.  You might need to talk to various people to get access,
 but *once* you have access, this is how you connect.
 
+## The IMAGE cluster
+
+[See here.](https://diku-dk.github.io/wiki/slurm-cluster)
+
 ## The old APL servers
 
 2014-vintage dual-socket Xeons with various GPUs.  Cosmin Oancea
