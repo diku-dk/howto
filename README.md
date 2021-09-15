@@ -23,3 +23,9 @@ it, here's links to frequently useful bits:
 
 * [Academic Calender for SCIENCE](https://kunet.ku.dk/faculty-and-department/science/study-administration/academic-calendar/Pages/default.aspx) 
   with nice printable overviews. 
+
+* [Booking rooms](https://kunet.ku.dk/faculty-and-department/diku/buildings_and_facilities/book-rooms/Pages/default.aspx)
+
+  * [Booking rooms at faculty level](https://kunet.ku.dk/fakultet-og-institut/science/bygninger-service/lokaleadministration/Sider/default.aspx)
+  
+  * [Lokaledatabasen](https://skema.ku.dk/ku2122/dk/room.htm) where you can check room availability.
