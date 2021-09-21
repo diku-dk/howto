@@ -71,6 +71,16 @@ On [identity.ku.dk](https://identity.ku.dk) add users to the group
 
 [See this issue.](https://github.com/RadeonOpenCompute/ROCm/issues/1318)
 
+### Compiling the Futhark compiler
+
+Apparently, these new servers are simply _too powerful_ for `stack` and `cabal` to handle. Therefore, to reduce the time it takes to compile the futhark compiler, use `taskset` to limit the number of threads spawned. For example, this is how you would install using `stack`:
+
+```
+taskset -c 0-16 stack install
+```
+
+Doing so will cut your compilation time in half, if not more.
+
 ## The old APL servers
 
 2014-vintage dual-socket Xeons with various GPUs.  Cosmin Oancea
