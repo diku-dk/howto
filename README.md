@@ -4,6 +4,8 @@ How indeed.  This is supposed to be a written form of unofficial
 **public** institutional knowledge that isn't a good fit for the
 intranet (also, easier to edit).
 
+[The PLTC infoscreen lives here.](https://github.com/diku-dk/pltc-infoscreen)
+
 ## Intranet pointers
 
 The [DIKU
