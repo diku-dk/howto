@@ -1,0 +1,55 @@
+
+
+\defverbatim[colored]\RevRFunPlus{%
+\footnotesize
+  \begin{rfuncode}
+zip :: ([a], [b]) <-> [(a, b)]
+zip ([], []) = []
+zip ((a:as), (b:bs)) =
+  let ls = zip (as, bs)
+  in ((a, b):ls)
+
+unzip :: [(a, b)] <-> ([a], [b])
+unzip l = zip! l
+  \end{rfuncode}
+}
+
+
+\defverbatim[colored]\RevRFunMap{%
+\footnotesize
+  \begin{rfuncode}
+map :: (a <-> b) -> [a] <-> [b]
+map fun [ ] = [ ]
+map fun (l:ls) =
+  let l'  = fun l
+      ls' = map fun ls
+  in  (l':ls')
+  \end{rfuncode}
+}
+
+
+\defverbatim[colored]\RevRFunQC{%
+\footnotesize
+  \begin{rfuncode}
+-- Wire is defined as a number
+data Wire = Z | S Wire
+
+data Gate = Id Wire | Not Wire
+   | H Wire | T Wire | Cnot ([Wire], Wire)
+
+hadamard :: Wire <-> Gate
+hadamard w = (H w)
+
+cnot :: Wire -> Wire <-> Gate
+cnot q1 q2 = Cnot [q1] q2
+
+-- Simple example circuit
+qec :: ([Wire] <-> [Gate]) 
+      -> [Wire] <-> [Gate]
+qec phase c =
+  let ch = map hadamard c
+      p  = phase ch
+      ci = map hadamard c
+  in  ci
+\end{rfuncode}
+}
