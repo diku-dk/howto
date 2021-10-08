@@ -31,3 +31,8 @@ it, here's links to frequently useful bits:
   * [Booking rooms at faculty level](https://kunet.ku.dk/fakultet-og-institut/science/bygninger-service/lokaleadministration/Sider/default.aspx)
   
   * [Lokaledatabasen](https://skema.ku.dk/ku2122/dk/room.htm) where you can check room availability.
+
+### Making a poster
+  
+  * [Create your poster in beamer](conference_poster/)
+  * [Get it printet at Campus Print](https://campusprint.ku.dk/) -- consider the polyester poster
