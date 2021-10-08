@@ -1,6 +1,0 @@
-PWD /Users/kirkedal/Documents/git/papers/ICCAD'17/conference_poster_1
-INPUT /usr/local/texlive/2017/texmf.cnf
-INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT rfunprog.tex
-OUTPUT rfunprog.log
