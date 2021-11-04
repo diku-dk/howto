@@ -35,4 +35,4 @@ it, here's links to frequently useful bits:
 ### Making a poster
   
   * [Create your poster in beamer](conference_poster/)
-  * [Get it printet at Campus Print](https://campusprint.ku.dk/) -- consider the polyester poster
+  * [Get it printed at Campus Print](https://campusprint.ku.dk/) -- consider the polyester poster
