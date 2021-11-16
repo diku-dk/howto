@@ -55,7 +55,7 @@ To use the GPUs, set the following environment variables:
 ```
 export CPATH=/opt/rocm/opencl/include:/usr/local/cuda/include:$CPATH
 export LIBRARY_PATH=/opt/rocm/opencl/lib:/usr/local/cuda/lib64:$LIBRARY_PATH
-export LD_LIBRARY_PATH=/opt/rocm/opencl/lib:/usr/local/cuda/lib64/$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/opt/rocm/opencl/lib:/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 ```
 
 Consider adding this to your shell startup file.
