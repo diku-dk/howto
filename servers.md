@@ -23,8 +23,6 @@ You need to be [connected to the VPN](vpn.md) (or physically connected
 to the *wired network* at DIKU) to connect to these machines (as
 indicated by the hostnames above).
 
-The home directories are subject to a 10GiB quota. Instead, you should use subdirectories in `/projects/futhark1/[YOUR-USERNAME]` for everything.
-
 To get access to `/projects/futhark1`, you need to request access to
 the SEC-HPC-PRJ-futhark1 group on
 [identity.ku.dk](https://identity.ku.dk).
