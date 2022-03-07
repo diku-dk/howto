@@ -36,3 +36,11 @@ it, here's links to frequently useful bits:
   
   * [Create your poster in beamer](conference_poster/)
   * [Get it printed at Campus Print](https://campusprint.ku.dk/) -- consider the polyester poster
+
+## Figuring out what's for lunch
+
+The lunch menus for the canteens at HCØ and Bio are available
+[here](https://www.foodandco.dk/besog-os-her/restauranter/ku/norre-campus/). The
+menu for the pharma canteen is supposed to be available
+[here](https://ku-sund.bychartwells.dk/#ath), but it doesn't work as of this
+writing.
