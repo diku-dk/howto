@@ -43,6 +43,7 @@ solution is add symlinks pointing to places in `/projects`, e.g.:
 ```
 mkdir /projects/futhark1/data/$USER/dotcabal && ln -sf /projects/futhark1/data/$USER/dotcabal $HOME/.cabal
 mkdir /projects/futhark1/data/$USER/dotlocal && ln -sf /projects/futhark1/data/$USER/dotlocal $HOME/.local
+mkdir /projects/futhark1/data/$USER/dotcache && ln -sf /projects/futhark1/data/$USER/dotcache $HOME/.cache
 mkdir /projects/futhark1/data/$USER/dotstack && ln -sf /projects/futhark1/data/$USER/dotstack $HOME/.stack
 ```
 
