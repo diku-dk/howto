@@ -20,3 +20,6 @@ only work after you have logged in):
 * To share files in a read-write manner with other ERDA users, you
   need to create a ["workgroup"](https://erda.dk/wsgi-bin/vgridman.py)
   and add them (using their KU username).
+
+For additional help, consult the [user
+guide](https://erda.ku.dk/public/ucph-erda-user-guide.pdf).
