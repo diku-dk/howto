@@ -15,7 +15,7 @@ only work after you have logged in):
 * Sharing files with the public requires using the [browser-based file
   manager](https://erda.dk/wsgi-bin/fileman.py).  But if you share a
   directory, this will also make files in all subdirectories available
-  ([example](https://sid.erda.dk/cgi-sid/ls.py?share_id=FlhwY8rtfk).
+  ([example](https://sid.erda.dk/cgi-sid/ls.py?share_id=FlhwY8rtfk)).
 
 * To share files in a read-write manner with other ERDA users, you
   need to create a ["workgroup"](https://erda.dk/wsgi-bin/vgridman.py)
