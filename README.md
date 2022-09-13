@@ -13,27 +13,34 @@ intranet](https://kunet.ku.dk/faculty-and-department/diku/Pages/default.aspx)
 on KUnet has good and up-to-date information.  Rather than duplicate
 it, here's links to frequently useful bits:
 
-* **Forms and procedures for**
+* [Academic Calender for SCIENCE](https://kunet.ku.dk/faculty-and-department/science/study-administration/academic-calendar/Pages/default.aspx)
+  with nice printable overviews.
 
-  * [Bachelors projects](https://kunet.ku.dk/faculty-and-department/diku/teaching/projects/bachelorprojects/Pages/bachelorprojects.aspx)
+### Forms and procedures for
 
-  * [Masters theses](https://kunet.ku.dk/faculty-and-department/diku/teaching/projects/masterthesis/Pages/default.aspx)
+* [Bachelors projects](https://kunet.ku.dk/faculty-and-department/diku/teaching/projects/bachelorprojects/Pages/bachelorprojects.aspx)
 
-  * [Projects outside course scope](https://kunet.ku.dk/faculty-and-department/diku/teaching/projects/POCS/Pages/default.aspx)
+* [Masters theses](https://kunet.ku.dk/faculty-and-department/diku/teaching/projects/masterthesis/Pages/default.aspx)
 
-  * [Course exams](https://kunet.ku.dk/faculty-and-department/diku/teaching/exam/Pages/default.aspx)
+* [Projects outside course scope](https://kunet.ku.dk/faculty-and-department/diku/teaching/projects/POCS/Pages/default.aspx)
 
-* [Academic Calender for SCIENCE](https://kunet.ku.dk/faculty-and-department/science/study-administration/academic-calendar/Pages/default.aspx) 
-  with nice printable overviews. 
+* [Course exams](https://kunet.ku.dk/faculty-and-department/diku/teaching/exam/Pages/default.aspx)
+
+
+### Practical information
 
 * [Booking rooms](https://kunet.ku.dk/faculty-and-department/diku/buildings_and_facilities/book-rooms/Pages/default.aspx)
 
   * [Booking rooms at faculty level](https://kunet.ku.dk/fakultet-og-institut/science/bygninger-service/lokaleadministration/Sider/default.aspx)
-  
+
   * [Lokaledatabasen](https://skema.ku.dk/ku2122/dk/room.htm) where you can check room availability.
 
+* [The tenure track process](https://kunet.ku.dk/faculty-and-department/diku/human_resources/tenure-track/Pages/default.aspx)
+
+* [Event planning](https://kunet.ku.dk/faculty-and-department/diku/event-planning/Pages/default.aspx)
+
 ### Making a poster
-  
+
   * [Create your poster in beamer](conference_poster/)
   * [Get it printed at Campus Print](https://campusprint.ku.dk/) -- consider the polyester poster
 
