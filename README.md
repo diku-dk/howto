@@ -39,7 +39,7 @@ it, here's links to frequently useful bits:
 
 * [Event planning](https://kunet.ku.dk/faculty-and-department/diku/event-planning/Pages/default.aspx)
 
-### Making a poster
+## Making a poster
 
   * [Create your poster in beamer](conference_poster/)
   * [Get it printed at Campus Print](https://campusprint.ku.dk/) -- consider the polyester poster
