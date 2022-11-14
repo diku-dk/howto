@@ -44,6 +44,10 @@ it, here's links to frequently useful bits:
   * [Create your poster in beamer](conference_poster/)
   * [Get it printed at Campus Print](https://campusprint.ku.dk/) -- consider the polyester poster
 
+## Computer problems
+
+* [KU-IT Service Portal](https://serviceportal.ku.dk/)
+
 ## Figuring out what's for lunch
 
 The lunch menus for the canteens at HCØ and Bio are available
