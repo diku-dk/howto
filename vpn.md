@@ -11,6 +11,11 @@ However, you will notice that there is no documentation for Linux.
 
 ## Accessing the *new* KU VPN using NetworkManager
 
+First you must set up the KU VPN.  You do this by going to
+[vpn.ku.dk](https://vpn.ku.dk).  Note that you must use the app (NetIQ
+Advanced Authenticator) - for some reason the VPN apparently does not
+work with SMS-based 2FA or NemID/MitID.
+
 Open the connection editor:
 
 ```
