@@ -21,7 +21,7 @@ You need:
 3. Add the various expenses.  Note that CWT is usually *two* expenses
    (ticket and "travel fee").  Attach invoices/bills to the relevant
    expenses.  You do not need to add anything for the CWT travel free.
-4. Under "Rejsedage" you add the travel days and indicate for each day
+4. Under "Rejsedage" (or the "Travel" tab if you're using CWT in English) you add the travel days and indicate for each day
    how you want to be reimbursed (e.g. which meals were included as
    part of the hotel/conference stay).
 
