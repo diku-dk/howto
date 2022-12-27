@@ -48,6 +48,12 @@ useful information.](https://diku-dk.github.io/wiki/slurm-cluster)
   Note that you will also need to add an appropriate `--gres` to
   access the GPU(s) if you need them.
 
+* To see all available resources and which nodes have them:
+
+  ```
+  sinfo -o "%60N  %5c  %10m  %20G "
+  ```
+
 ## The Futhark servers
 
 Dual-socket 2021-vintage Epyc machines with various GPUs.  Cosmin
