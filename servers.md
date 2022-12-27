@@ -2,11 +2,51 @@
 
 There are servers at DIKU that are accessed through various esoteric
 mechanisms.  You might need to talk to various people to get access,
-but *once* you have access, this is how you connect.
+but *once* you have access, this is how you connect and use them.
 
-## The IMAGE cluster
+## The Hendrix cluster
 
-[See here.](https://diku-dk.github.io/wiki/slurm-cluster)
+Also known as *the IMAGE cluster*.  [See here for access and other
+useful information.](https://diku-dk.github.io/wiki/slurm-cluster)
+
+### Tips and tricks
+
+* Remember that this is a shared system with many users.  Don't do
+  clearly antisocial things.  For example, don't leave an interactive
+  job idle for a long period of time on an in-demand node while you go
+  for lunch.
+
+* To get a an interactive session on an arbitrary node:
+
+  ```
+  srun --pty bash
+  ```
+
+* To get an interactive session on a node with an arbitrary GPU:
+
+  ```
+  srun --gres=gpu:1 --pty bash
+  ```
+
+* To get an interactive session on a node with a specific GPU:
+
+  ```
+  srun -p gpu --gres=gpu:titanx:1 --pty bash
+  ```
+
+  See [this
+  table](https://diku-dk.github.io/wiki/slurm-cluster#available-gpus)
+  for available GPUs.  (Note that the table may not contain correct
+  names - try lowercase versions of the indicated names.)
+
+* To start an interactive session on a specific node:
+
+  ```
+  srun -p gpu -w hendrixgpu03fl --pty bash
+  ```
+
+  Note that you will also need to add an appropriate `--gres` to
+  access the GPU(s) if you need them.
 
 ## The Futhark servers
 
