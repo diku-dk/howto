@@ -54,6 +54,12 @@ useful information.](https://diku-dk.github.io/wiki/slurm-cluster)
   sinfo -o "%60N  %5c  %10m  %20G "
   ```
 
+* You can add `--exclusive` to `srun` to get an entire node to
+  yourself, but you may be waiting a long time.  Otherwise you will
+  only have exclusive access to the resources you asked for (e.g. you
+  may get the GPU to yourself, but someone else may be hammering the
+  CPU cores).
+
 ## The Futhark servers
 
 Dual-socket 2021-vintage Epyc machines with various GPUs.  Cosmin
