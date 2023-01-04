@@ -76,7 +76,7 @@ to the *wired network* at DIKU) to connect to these machines (as
 indicated by the hostnames above).
 
 To get access to `/projects/futhark1`, you need to request access to
-the SEC-HPC-PRJ-futhark1 group on
+the COMP-PRJ-futhark1 group on
 [identity.ku.dk](https://identity.ku.dk).
 
 ### Working around the low disk quotas
