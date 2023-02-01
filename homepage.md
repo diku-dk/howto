@@ -5,7 +5,7 @@ You can update your department homepage by connecting with SFTP to
 
 ```
 $ sftp kuid@hjemmesider.diku.dk
-sftp> cd /ansatte/username
+sftp> cd /var/www/hjemmesider.diku.dk/hjemmesider/ansatte/
 sftp> put filename.html
 ```
 
