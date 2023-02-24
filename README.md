@@ -8,6 +8,12 @@ intranet (also, easier to edit).
 
 * [Reimbursement/RejsUd notes](rejsud.md)
 
+* [Server information](servers.md)
+  - [Large file storage with ERDA](erda.md)
+  - [Your academic homepage](homepage.md)
+
+* [How to spend paper](printing.md)
+
 ## Intranet pointers
 
 The [DIKU
