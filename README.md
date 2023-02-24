@@ -18,6 +18,11 @@ it, here's links to frequently useful bits:
 * [Academic Calender for SCIENCE](https://kunet.ku.dk/faculty-and-department/science/study-administration/academic-calendar/Pages/default.aspx)
   with nice printable overviews.
 
+* [Who to contact](https://kunet.ku.dk/faculty-and-department/diku/contact/Pages/default.aspx)
+  - For generic approval of administrative things (collaboration
+    agreements etc) contact the Head of Administration:
+    <headofadministration@di.ku.dk>
+
 ### Forms and procedures for
 
 * [Bachelors projects](https://kunet.ku.dk/faculty-and-department/diku/teaching/projects/bachelorprojects/Pages/bachelorprojects.aspx)
