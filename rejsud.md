@@ -16,6 +16,8 @@ You need:
 * (Generally, invoice for any expense, but these three are unavoidable)
 * PDF of the conference programme (hopefully can be printed from conference website).
 
+Hints:
+
 1. For "Afregningsskabelon" pick "2 - Travel settlements".
 2. Fill in your sted/alias/spec, travel days, start/end-date, and so on.
 3. Add the various expenses.  Note that CWT is usually *two* expenses
