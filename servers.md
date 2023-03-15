@@ -60,6 +60,33 @@ useful information.](https://diku-dk.github.io/wiki/slurm-cluster)
   may get the GPU to yourself, but someone else may be hammering the
   CPU cores).
 
+#### Compiling Haskell
+
+* Use `module load gmp` to make the GMP library available.  GHC
+  usually expects this to be available.  Some SML compilers do, too.
+
+* Use [ghcup](https://www.haskell.org/ghcup/) to install GHC and
+  `cabal`.  You may need to use the following command to obtain a
+  working GHC:
+
+  ```
+  $ ghcup install ghc --set -p x86_64-fedora27-linux
+  ```
+
+* Compilation with `cabal` is likely to make progress and then fail
+  with errors such as:
+
+  ```
+  /home/.../dist-newstyle/tmp/package-registration--811774
+  removeDirectoryRecursive:removeContentsRecursive:removeDirectory: unsatisfied
+  constraints (Directory not empty)
+  ```
+
+  As far as I can determine, this is due to the network filesystem not
+  following POSIX semantics.  However, this error is nondeterministic
+  and `cabal` will make a bit of progress every time, so just keep
+  retrying until it is done.
+
 ## The Futhark servers
 
 Dual-socket 2021-vintage Epyc machines with various GPUs.  Cosmin
