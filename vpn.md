@@ -1,7 +1,7 @@
 # How do I VPN?
 
 There is currently only one KU VPN that uses 2FA.  This document describes how to
-access both.
+access it.
 
 Take a look at [the official
 documentation](https://kunet.ku.dk/medarbejderguide/Sider/It/Fjernadgang-vpn.aspx)
