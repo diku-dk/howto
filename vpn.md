@@ -1,7 +1,6 @@
 # How do I VPN?
 
-There are apparently two KU VPNs: a "new" one that is "more secure"
-(it uses 2FA), and an older one.  This document describes how to
+There currently only one KU VPN that uses 2FA.  This document describes how to
 access both.
 
 Take a look at [the official
@@ -9,7 +8,7 @@ documentation](https://kunet.ku.dk/medarbejderguide/Sider/It/Fjernadgang-vpn.asp
 (generally, the material on KUNet is better than its reputation).
 However, you will notice that there is no documentation for Linux.
 
-## Accessing the *new* KU VPN using NetworkManager
+## Accessing the KU VPN using NetworkManager
 
 First you must set up the KU VPN.  You do this by going to
 [vpn.ku.dk](https://vpn.ku.dk).  Note that you must use the app (NetIQ
@@ -35,7 +34,7 @@ connection types, you would probably need to install some package(s),
 depending on your setup (called `networkmanager-openconnect` on Arch
 Linux).
 
-## Accessing the *new* KU VPN on Linux and macOS with OpenConnect
+## Accessing the KU VPN on Linux and macOS with OpenConnect
 
 The new VPN uses the Cisco AnyConnect protocol. In order to access it, install
 [OpenConnect](http://www.infradead.org/openconnect/) and run:
@@ -58,78 +57,6 @@ macOS use `brew`:
 
 ```sh
 $ brew install openconnect
-```
-
-## Accessing the *old* DIKU VPN on Linux
-
-The following assumes you use NetworkManager, which is the case on
-most Linux systems nowadays.  You will need to add a VPN connection,
-which you must do through the connection editor:
-
-```
-$ sudo nm-connection-editor
-```
-
-Depending on your desktop environment, you might also be able to
-access the connection editor in some other way, and depending on your
-user setup you might not need `sudo`.
-
-Once there, press *Add connection* (the button looks like a `+` to me)
-and pick *Layer 2 tunneling protocol (L2TP)*.  Enter the following:
-
-* **Gateway:** `vpn-diku.science.ku.dk`
-
-* **Username:** your KU license plate (e.g. I put `mzd885`).
-
-* **Password:** your KU password (e.g. I put `hunter2`).
-
-* Under **IPsec Settings**:
-
-  * Make sure *Enable IPsec tunnel to L2TP host* is checked
-
-  * **Pre-shared key:** find it in the official documentation
-    (e.g. [the macOS guide](https://kunet.ku.dk/medarbejderguide/ITvejl/VPN%20-%20fjernadgang%20p%C3%A5%20SCIENCE%20PC%20Mac.pdf)).
-
-  * Under *Advanced*, click the *Legacy Proposals* to enable the magic
-    potpourri of *~algorithms~* that will satisfy the KU server.
-
-* Under **PPP Settings**:
-
-  * Under **Authentication**, make sure *only* the following methods
-    are checked: *MSCHAP*, *MSCHAPv2*.
-
-That should add the connection.  To *enable* it, do whatever you
-normally do.  In particular, civilised tools like `nmtui` will work
-fine (they cannot *add* VPNs but they can enable them just fine). Sometimes,
-a reboot would be necessary after the setup is complete.
-
-### NixOS-specific (?)
-
-You may need to create a `/etc/ipsec.secrets` file and a `/etc/ipsec.secrets.d`
-directory yourself (it'll be populated by something else when you enable the
-VPN, but apparently the file must exist in advance, and it's not clear who is
-responsible for it):
-
-```
-sudo touch /etc/ipsec.secrets
-sudo mkdir /etc/ipsec.secrets.d
-```
-
-### Arch Linux-specific (?)
-
-You may also need to install `networkmanager-l2tp` and `strongswan` packages.
-Furthermore, if *Legacy Proposals* is not available, you would have to manually provide the
-list of legacy algorithms by setting:
-
-* **Phase 1 Algorithms** to:
-
-```
-aes256-sha2_256-modp2048,aes256-sha2_256-modp1536,aes256-sha2_256-modp1024,aes256-sha1-modp2048,aes256-sha1-modp1536,aes256-sha1-modp1024,aes256-sha1-ecp384,aes128-sha1-modp1024,aes128-sha1-ecp256,3des-sha1-modp2048,3des-sha1-modp1024!
-```
-* **Phase 2 Algorithms** to:
-
-```
-aes256-sha1,aes128-sha1,3des-sha1!
 ```
 
 ## VPN-over-SSH via the PLTC Raspberry Pi
