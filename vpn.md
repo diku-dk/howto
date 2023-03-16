@@ -40,7 +40,7 @@ Linux).
 The new VPN uses the Cisco AnyConnect protocol. In order to access it, install
 [OpenConnect](http://www.infradead.org/openconnect/) and run:
 
-```
+```sh
 $ sudo openconnect vpn.ku.dk
 ```
 
@@ -52,6 +52,13 @@ set that up).
 You can write a script such that you don't have to enter your username
 and password every time (do so and put it here!), but you will always
 need to do the 2FA.
+
+To install [OpenConnect](http://www.infradead.org/openconnect/) under 
+macOS use `brew`:
+
+```sh
+$ brew install openconnect
+```
 
 ## Accessing the *old* DIKU VPN on Linux
 
