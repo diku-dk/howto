@@ -1,6 +1,6 @@
 # How do I VPN?
 
-There currently only one KU VPN that uses 2FA.  This document describes how to
+There is currently only one KU VPN that uses 2FA.  This document describes how to
 access both.
 
 Take a look at [the official
