@@ -48,7 +48,7 @@ it, here's links to frequently useful bits:
 
   * [Booking rooms at faculty level](https://kunet.ku.dk/fakultet-og-institut/science/bygninger-service/lokaleadministration/Sider/default.aspx)
 
-  * [Lokaledatabasen](https://skema.ku.dk/ku2122/dk/room.htm) where you can check room availability.
+  * [Lokaledatabasen](https://skema.ku.dk/ku2223/dk/room.htm) where you can check room availability.
 
 * [The tenure track process](https://kunet.ku.dk/faculty-and-department/diku/human_resources/tenure-track/Pages/default.aspx)
 
