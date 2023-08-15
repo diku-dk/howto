@@ -50,6 +50,11 @@ it, here's links to frequently useful bits:
 
   * [Lokaledatabasen](https://skema.ku.dk/ku2223/dk/room.htm) where you can check room availability.
 
+  * [Online form for ad hoc
+    booking](https://kuforms.ku.dk/xform/frontend/FormEngine/v2/ShowForm.aspx?alias=SCI3758&groupId=2&doctype=5&formid=3763) -
+    if you send an email, you'll just get an autoreply telling you to
+    use this form instead.
+
 * [The tenure track process](https://kunet.ku.dk/faculty-and-department/diku/human_resources/tenure-track/Pages/default.aspx)
 
 * [Event planning](https://kunet.ku.dk/faculty-and-department/diku/event-planning/Pages/default.aspx)
