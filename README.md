@@ -68,6 +68,11 @@ it, here's links to frequently useful bits:
 
 * [KU-IT Service Portal](https://serviceportal.ku.dk/)
 
+## Computer software from KU
+
+* [Softwarebiblioteket](https://pkunet-webapi.ku.dk/software-bibliotek.aspx)
+
+
 ## Figuring out what's for lunch
 
 The lunch menus for the canteens at HCØ and Bio are available
