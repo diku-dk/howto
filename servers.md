@@ -87,6 +87,16 @@ useful information.](https://diku-dk.github.io/wiki/slurm-cluster)
   and `cabal` will make a bit of progress every time, so just keep
   retrying until it is done.
 
+### Adding modules
+
+The system has a standard [HPC module
+system](https://hpc-wiki.info/hpc/Modules).  Use it with e.g. `module
+load cuda`.  The set of available modules is maintained by KU IT, and
+you can request more modules by opening a ticket at
+https://serviceportal.ku.dk under *Forsknings-IT ->
+Forskningsapplikationer og Service -> Rådgivning og support*.  They
+seem pretty responsive.
+
 ## The Futhark servers
 
 Dual-socket 2021-vintage Epyc machines with various GPUs.  Cosmin
