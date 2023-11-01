@@ -31,6 +31,10 @@ it, here's links to frequently useful bits:
     agreements etc) contact the Head of Administration:
     <headofadministration@di.ku.dk>
 
+* [Phonebook](https://kunet.ku.dk/oevrige/telefonbog), where you can
+  lookup the names and/or email addresses of an employee or student,
+  based on their name and/or email address.
+
 ### Forms and procedures for
 
 * [Bachelors projects](https://kunet.ku.dk/faculty-and-department/diku/teaching/projects/bachelorprojects/Pages/bachelorprojects.aspx)
@@ -40,10 +44,6 @@ it, here's links to frequently useful bits:
 * [Projects outside course scope](https://kunet.ku.dk/faculty-and-department/diku/teaching/projects/POCS/Pages/default.aspx)
 
 * [Course exams](https://kunet.ku.dk/faculty-and-department/diku/teaching/exam/Pages/default.aspx)
-
-* [Phonebook](https://kunet.ku.dk/oevrige/telefonbog), where you can
-  lookup the names and/or email addresses of an employee or student,
-  based on their name and/or email address.
 
 ### Practical information
 
