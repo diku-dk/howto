@@ -41,6 +41,9 @@ it, here's links to frequently useful bits:
 
 * [Course exams](https://kunet.ku.dk/faculty-and-department/diku/teaching/exam/Pages/default.aspx)
 
+* [Phonebook](https://kunet.ku.dk/oevrige/telefonbog), where you can
+  lookup the names and/or email addresses of an employee or student,
+  based on their name and/or email address.
 
 ### Practical information
 
