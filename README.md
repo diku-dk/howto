@@ -51,7 +51,7 @@ it, here's links to frequently useful bits:
 
   * [Booking rooms at faculty level](https://kunet.ku.dk/fakultet-og-institut/science/bygninger-service/lokaleadministration/Sider/default.aspx)
 
-  * [Lokaledatabasen](https://skema.ku.dk/ku2223/dk/room.htm) where you can check room availability.
+  * [Lokaledatabasen](https://skema.ku.dk/ku2324/dk/module.htm) where you can check room availability.
 
   * [Online form for ad hoc
     booking](https://kuforms.ku.dk/xform/frontend/FormEngine/v2/ShowForm.aspx?alias=SCI3758&groupId=2&doctype=5&formid=3763) -
