@@ -16,6 +16,12 @@ useful information.](https://diku-dk.github.io/wiki/slurm-cluster)
   job idle for a long period of time on an in-demand node while you go
   for lunch.
 
+* To run a command on an arbitrary node with an arbitrary GPU:
+
+  ```
+  srun --gres=gpu:1 --pty nvidia-smi
+  ```
+
 * To get a an interactive session on an arbitrary node:
 
   ```
