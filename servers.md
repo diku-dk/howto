@@ -66,6 +66,10 @@ useful information.](https://diku-dk.github.io/wiki/slurm-cluster)
   may get the GPU to yourself, but someone else may be hammering the
   CPU cores).
 
+* You may want to add `--time=00:20:00` to `srun`, which will allow
+  your command to run before jobs that demand infinite execution
+  time...
+
 #### Compiling Haskell
 
 * Use `module load gmp` to make the GMP library available.  GHC
