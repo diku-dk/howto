@@ -47,6 +47,8 @@ it, here's links to frequently useful bits:
 
 * [Plagiarism and cheating](https://kunet.ku.dk/faculty-and-department/science/study-administration/examination/plagiarism-cheating/Pages/default.aspx)
 
+* [Reporting of exam results (including projects)](https://kunet.ku.dk/faculty-and-department/science/study-administration/examination/reporting-exam-results/Pages/default.aspx)
+
 ### Practical information
 
 * [Booking rooms](https://kunet.ku.dk/faculty-and-department/diku/buildings_and_facilities/book-rooms/Pages/default.aspx)
