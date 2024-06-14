@@ -4,9 +4,9 @@ There are servers at DIKU that are accessed through various esoteric
 mechanisms.  You might need to talk to various people to get access,
 but *once* you have access, this is how you connect and use them.
 
-## The Hendrix cluster
+## The DIKU cluster
 
-Also known as *the IMAGE cluster*.  [See here for access and other
+Also known as *Hendrix* or *the IMAGE cluster*.  [See here for access and other
 useful information.](https://diku-dk.github.io/wiki/slurm-cluster)
 
 ### Tips and tricks
