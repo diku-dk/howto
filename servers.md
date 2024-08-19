@@ -106,3 +106,24 @@ you can request more modules by opening a ticket at
 https://serviceportal.ku.dk under *Forsknings-IT ->
 Forskningsapplikationer og Service -> Rådgivning og support*.  They
 seem pretty responsive.
+
+### Futhark servers
+
+The DIKU cluster has three so-called "Futhark servers" that are not
+properly hooked into the Slurm queue system. They have the following
+hostnames:
+
+- hendrixfut01fl
+- hendrixfut02fl
+- hendrixfut03fl
+
+You access them by SSH'ing into the Hendrix gateway server and then
+SSH'ing into one of the hosts listed above, provided you have
+permission (see below). From there, you can run normal Unix commands.
+The module system is available, but Slurm is not.
+
+### Granting permission
+
+To access the Futhark servers, you must be added to the
+`SRV-hendrixfut-users` group on
+[identity.ku.dk](https://identity.ku.dk).
