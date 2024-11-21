@@ -12,6 +12,8 @@ intranet (also, easier to edit).
   - [Large file storage with ERDA](erda.md)
   - [Your academic homepage](homepage.md)
 
+* [Eduroam](eduroam.md)
+
 * [Using the UCPH VPN](vpn.md)
 
 * [How to spend paper](printing.md)
