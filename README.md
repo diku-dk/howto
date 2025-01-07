@@ -82,6 +82,12 @@ it, here's links to frequently useful bits:
 * [Softwarebiblioteket](https://pkunet-webapi.ku.dk/software-bibliotek.aspx)
 
 
+## Teaching
+
+* [Valkyrie Savage's *Resources for Students*](https://valkyriesavage.notion.site/Resources-for-Students-3a49a78e3f584281b4c596ec3875515b)
+
+* [Troels Henriksen's notes on teaching](https://sigkill.dk/writings/teaching.html)
+
 ## Figuring out what's for lunch
 
 The lunch menus for the canteens at HCØ and Bio are available
