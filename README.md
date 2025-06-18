@@ -18,6 +18,25 @@ intranet (also, easier to edit).
 
 * [How to spend paper](printing.md)
 
+## Curriculums
+
+These are the curriculums ("studieordninger") for the study programmes, which in
+particular contain learning goals for theses. Some of these are in Danish,
+others in English.
+
+* [Bachelor i datalogi (2009, rev. 2025)](https://science.ku.dk/studerende/studieordninger/bachelor/datalogi/Sto_datalogi_2009.pdf)
+
+* [Bachelor i datalogi-økonomi (2019, rev. 2025)](https://science.ku.dk/studerende/studieordninger/bachelor/datalogi-oekonomi/BA_Datalogi-_konomi_STO.pdf)
+
+* [Bachelor i machine learning og datavidenskab (2019, rev. 2025)](https://science.ku.dk/studerende/studieordninger/bachelor/machine-learning-og-datavidenskab/BA_Machine_learning_og_datavidenskab_STO.pdf)
+
+* [Masters in computer science (2009, rev. 2025)](https://science.ku.dk/studerende/studieordninger/kandidat/datalogi/sto_datalogi_2009.pdf/)
+
+* [The shared section of the curricula for Bachelor’s, Part-time Master’s and
+Master’s degree programme at SCIENCE
+(2024)](https://science.ku.dk/studerende/studieordninger/faelles_sto/faelles-del-eng.pdf/)
+
+
 ## Intranet pointers
 
 The [DIKU
