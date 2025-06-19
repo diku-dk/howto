@@ -114,3 +114,26 @@ The lunch menus for the canteens at HCØ and Bio are available
 menu for the pharma canteen is supposed to be available
 [here](https://ku-sund.bychartwells.dk/#ath), but it doesn't work as of this
 writing.
+
+## Talks
+
+If you have a guest giving a talk (or you yourself have something the world must
+hear), you can have it announced on diku.dk by writing an email to
+kommunikation-noerre@adm.ku.dk with the title, abstract, time, and place.
+
+### COPLAS
+
+To have the talk announced as part o f the Copenhagen Programming Languages
+Seminars (*COPLAS*) calendar, contact [Fritz
+Henglein](https://hjemmesider.diku.dk/~henglein/), who can either add it for
+you, or give you access to the relevant calendar. Pertinent Information received
+from Fritz (in Danish):
+
+> Jeg gør det normalt ved at ‘duplicere’ et eksisterende COPLAS foredrag,
+> editere det og sætte KOM (kommunikation-noerre@adm.ku.dk), COPLAS editorerne
+> på DTU, ITU, RUC, AAU (alscs@dtu.dk, andsch@cs.aau.dk, mir@ruc.dk,
+> sestoft@itu.dk) og prog-lang listen (sci-diku-prog-lang@list.ku.dk), samt
+> foredragsholdere og andre interessenter for det pågældende foredrag som
+> modtagere. Jeg har bedt KOM om at poste COPLAS-foredrag, de modtager på denne
+> måde. Det skulle således at være nok at skabe og sende COPLAS-foredraget som
+> Google-kalender-invitation. (Dog har der været nogle problemer i begyndelsen…)
