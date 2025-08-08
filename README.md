@@ -107,6 +107,8 @@ it, here's links to frequently useful bits:
 
 * [Troels Henriksen's notes on teaching](https://sigkill.dk/writings/teaching.html)
 
+* [Exam dates](https://science.ku.dk/uddannelser/eksamensdatoer/)
+
 ## Figuring out what's for lunch
 
 The lunch menus for the canteens at HCØ and Bio are available
