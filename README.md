@@ -1,8 +1,10 @@
 # How do I DIKU?
 
-How indeed.  This is supposed to be a written form of unofficial
-**public** institutional knowledge that isn't a good fit for the
-intranet (also, easier to edit).
+How indeed. This is supposed to be a written form of unofficial **public**
+institutional knowledge for all DIKU-related matters that isn't a good fit for
+the intranet (also, easier to edit). Everyone is free to submit contributions,
+either with a pull request or by asking for permission to edit directly - the
+bar is supposed to be low.
 
 * [The PLTC infoscreen lives here.](https://github.com/diku-dk/pltc-infoscreen)
 
