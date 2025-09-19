@@ -20,6 +20,8 @@ bar is supposed to be low.
 
 * [How to spend paper](printing.md)
 
+* [KU-hosted GitLab instance](https://git.ku.dk)
+
 ## Curriculums
 
 These are the curriculums ("studieordninger") for the study programmes, which in
