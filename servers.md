@@ -75,13 +75,9 @@ useful information.](https://diku-dk.github.io/wiki/slurm-cluster)
 * Use `module load gmp` to make the GMP library available.  GHC
   usually expects this to be available.  Some SML compilers do, too.
 
-* Use [ghcup](https://www.haskell.org/ghcup/) to install GHC and
-  `cabal`.  You may need to use the following command to obtain a
-  working GHC:
-
-  ```
-  $ ghcup install ghc --set -p x86_64-fedora27-linux
-  ```
+* Use [ghcup](https://www.haskell.org/ghcup/) to install GHC and `cabal`. Use
+  `ghcup tui` to `i`nstall and `s`et a fairly recent version of GHC - 9.12 is
+  known to work, but some older versions do not run on the servers.
 
 * Compilation with `cabal` is likely to make progress and then fail
   with errors such as:
