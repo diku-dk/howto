@@ -64,9 +64,15 @@ it, here's links to frequently useful bits:
 
 * [Bachelors projects](https://kunet.ku.dk/faculty-and-department/diku/teaching/projects/bachelorprojects/Pages/bachelorprojects.aspx)
 
+  * [Information for students](https://kunet.ku.dk/studie/datalogi-ba/Sider/emne.aspx?topicid=07223285-13cc-4757-b37c-943ef60a2267)
+
 * [Masters theses](https://kunet.ku.dk/faculty-and-department/diku/teaching/projects/masterthesis/Pages/default.aspx)
 
+  * [Information for students](https://kunet.ku.dk/study/computerscience-ma/Pages/topic.aspx?topicid=28f141f2-59ea-45b4-8641-7976ee784ccf)
+
 * [Projects outside course scope](https://kunet.ku.dk/faculty-and-department/diku/teaching/projects/POCS/Pages/default.aspx)
+
+  * [Information for students](https://kunet.ku.dk/study/computerscience-ma/Pages/topic.aspx?topicid=28f141f2-59ea-45b4-8641-7976ee784ccf)
 
 * [Course exams](https://kunet.ku.dk/faculty-and-department/diku/teaching/exam/Pages/default.aspx)
 
