@@ -12,8 +12,9 @@ You need:
 
 * PDF invoice for hotel
 * PDF invoice for conference
-* PDF invoice from Carlson Wagonlit (CWT, the travel agent)
-* (Generally, invoice for any expense, but these three are unavoidable)
+* **If*** you used Carlson Wagonlit (CWT, the travel agent): PDF invoice from CWT
+* **If** you went by train: the train receipt *and* ticket PDFs with departure/arrival times.
+* (Generally, invoice for any expense, but those above are unavoidable)
 * PDF of the conference programme (hopefully can be printed from conference website).
 
 Hints:
