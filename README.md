@@ -110,6 +110,11 @@ it, here's links to frequently useful bits:
 
 * [Softwarebiblioteket](https://pkunet-webapi.ku.dk/software-bibliotek.aspx)
 
+## Physical lab space
+
+DIKU is equipped with physical lab space for research and student projects related to fabrication, motion capture and robotics. 
+
+[Pages on the usage of the space and equipments like robots](https://diku-dk.github.io/image-website/robotlab/)
 
 ## Teaching
 
