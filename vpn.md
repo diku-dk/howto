@@ -58,3 +58,22 @@ macOS use `brew`:
 ```sh
 $ brew install openconnect
 ```
+Prerequisite: Homebrew (macOS only)
+Installing openconnect via brew requires that Homebrew is installed
+on your system.
+Check if Homebrew is installed
+Open a terminal and run:
+```sh
+$ brew --version
+```
+If Homebrew is installed, this will print the installed version number.
+If you see command not found: brew, you need to install it.
+Install Homebrew
+Run the following command in your terminal:
+```sh
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+After installation, you can verify it again with:
+```sh
+$ brew --version
+```
