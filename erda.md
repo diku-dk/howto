@@ -9,7 +9,7 @@ documentation, but here are a few pointers (some of these links may
 only work after you have logged in):
 
 * [SFTP (i.e. `sshfs`)
-  access](https://erda.dk/wsgi-bin/setup.py?topic=sftp) - even works
+  access](https://oidc.erda.dk/wsgi-bin/setup.py?topic=sftp) - even works
   with your public key, like an actual civilised system!
 
 * Sharing files with the public requires using the [browser-based file
