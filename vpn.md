@@ -48,10 +48,6 @@ need to enter a 2FA token from an authenticator app on your phone, or
 via a discrete device (see the official documentation above for how to
 set that up).
 
-You can write a script such that you don't have to enter your username
-and password every time (do so and put it here!), but you will always
-need to do the 2FA.
-
 To install [OpenConnect](http://www.infradead.org/openconnect/) under 
 macOS use `brew`:
 
@@ -76,4 +72,54 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 After installation, you can verify it again with:
 ```sh
 $ brew --version
+```
+
+## A handy script
+
+Troels Henriksen from PLTC has written the following handy script, `kuvpn`,
+which automates the use of KU's VPN. You should read the comments for how to use
+it.
+
+```sh
+#!/bin/sh
+#
+# Script for connecting to the KU vpn with OpenConnect.
+#
+# Invoke it with a single option: the TOTP code from your MFA app. Example:
+#
+# $ kuvpn 320160
+#
+# You will need to modify the USER and PASSWORD_COMMAND definitions below unless
+# you are Troels.
+#
+# Note that if 'sudo' asks for a password and you take too long to enter it, the
+# TOPT code may have become invalid. Just try again.
+
+# Modify the following to suit your preferences.
+#
+USER=mzd885 # Your username
+PASSWORD_COMMAND="pass show kunet" # A command that retrives your password.
+
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 TOTP"
+    exit 1
+fi
+
+TOTP=$1 # First command line argument
+
+# Pipe password and TOPT to openconnect over stdin.
+#
+# Explanation of options:
+#   --useragent=AnyConnect   to talk properly to the server.
+#
+#   --background             makes openconnect run in the background after connecting - you
+#                            can remove this if you want.
+#
+#   --syslog                 print logs to the system log, feel free to remove this.
+#
+#   --user=$USER             for telling it who you are.
+#
+#   --passwd-on-stdin        what it says.h
+($PASSWORD_COMMAND; echo $1) | \
+    sudo openconnect --useragent=AnyConnect --background --syslog --user=$USER --passwd-on-stdin vpn.ku.dk
 ```
