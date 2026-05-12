@@ -1,8 +1,7 @@
 # Updating your diku.dk/~foo homepage
 
-Your department homepage is stored on the "N drive", specifically
-`https://ucph-ku.zoom.us/j/4582423981`. To gain access, you must write to
-[Morten
+Your department homepage is stored on the "N drive". To gain access, you must
+write to [Morten
 Engell-Nørregaard](https://di.ku.dk/english/staff/administration/?id=246448&vis=medarbejder).
 Note that you will get write access to *all* homepages, so please be careful.
 
